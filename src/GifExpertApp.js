@@ -5,7 +5,7 @@ import { GifGrid } from './components/GifGrid';
 function GifExpertApp() {
 
 
-    const [categories, setCategories] = useState(['Marvel'])
+    const [categories, setCategories] = useState(['Bravo'])
 
     return (
         <>
@@ -13,7 +13,7 @@ function GifExpertApp() {
                 <h2>GifExpertApp</h2>
                 <h3>Encuentra el gif perfecto: </h3>
                 <AddCategory setCategories={setCategories} />
-                <hr />
+
             </div>
             <ol>
                 {categories.map(category =>

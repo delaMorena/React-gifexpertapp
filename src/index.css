@@ -26,11 +26,12 @@ input {
   flex-wrap: wrap;
 }
 .card {
-  align-tracks: center;
   /* border: 1px solid grey; */
   margin: 0 10px 10px 0;
-  overflow: hidden;
   max-width: 200px;
+  overflow: hidden;
+  text-align: center;
+  
 }
 .card p {
   padding: 5px;
